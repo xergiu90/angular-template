@@ -1,0 +1,44 @@
+<hr>
+<div class="section-newsletter">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5 col-md-5 col-sm-24 col-xs-24"><span>Subscribe to our newsletter</span></div>
+            <div class="col-lg-16 col-md-16 col-sm-18 col-xs-18">
+                <div class="input-group">
+                    <input type="text" class="form-control name" placeholder="Name">
+                    <input type="text" class="form-control" placeholder="Email address">
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                <button class="btn btn-primary">
+                Subscribe
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="section-info">
+    <div class="container">
+        <div class="row">
+            <div class="info col-lg-14 col-md-24"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+        </div>
+    </div>
+    <div class="band"></div>
+</div>
+<div class="section-links">
+    <div class="container">
+        <div class="row">
+            <div class="info col-lg-4 col-md-4 col-sm-8 col-xs-8" *ngFor="let number of [1,2,3,4,5,6]">
+                <span *ngIf="number==2 || number==3 || number==5 || number==6" class="bullet">&#9679;</span>
+                <a href="#">Link {{number}}</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="section-disclaimer">
+    <div class="container">
+        <div class="row">
+            <div class="info col-lg-14 col-md-24"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+        </div>
+    </div>
+</div>
